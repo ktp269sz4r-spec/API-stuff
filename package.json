@@ -1,0 +1,12 @@
+{
+  "name": "all-hockey",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "update": "node updater/update.mjs",
+    "check": "node updater/update.mjs --check",
+    "test": "node updater/test/run.mjs",
+    "serve": "python3 -m http.server 8000"
+  }
+}
